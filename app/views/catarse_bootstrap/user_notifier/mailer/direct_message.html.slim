@@ -5,7 +5,7 @@
 |Olá <strong>#{to_user.try(:display_name)}</strong>
 br
 
-|Você recebeu uma nova mensagem de #{link_to message.user.try(:display_name), user_url(message.user)}  a partir da página #{link_to(message_origin_name, message.data['page_url'], target: :_blank) }:
+|Você recebeu uma nova mensagem de #{link_to message.user.try(:display_name), user_url(message.user)} a partir da página #{link_to(message_origin_name, message.data['page_url'], target: :_blank) }:
 br
 br
 
